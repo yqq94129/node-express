@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel='stylesheet' href='/css/shopList.css' />
+	<link rel="stylesheet" href="/css/reset.css" />
+</head>
+<body>
+	<!--top-->
+	<div class="top">
+		<img class="logo" src="/images/topLogo.png"/>
+		<ul>
+			<li>
+				<a href="/admin">
+					<img src="../images/topmune_09.png" />
+					<span id="exit">退出</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>清除缓存</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>关于ECSHOP</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>帮助</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>查看商店</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>管理员留言</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>个人设置</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>刷新</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>记事本</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span>开店向导</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/topmune_09.png" />
+					<span style="color: #ff0;">更多模板</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!--nav-->
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="#">
+					<img src="/images/index-11_07.png">
+					<span class="start_page">起始页</span>
+				</a>
+				<span class="line"></span>
+			</li>
+			<li>
+				<a href="#">
+					<img src="/images/index-11_41.png">
+					<span class="start_page">设置导航栏</span>
+				</a>
+				<span class="line"></span>
+			</li>
+			<li>
+				<a href="#">
+					<img src="/images/index-11_09.png">
+					<span class="start_page">商品管理</span>
+					<span class="num">0</span>
+				</a>
+				<span class="line"></span>
+			</li>
+			<li>
+				<a href="#">
+					<img src="/images/dd.png">
+					<span class="start_page">订单管理</span>
+					<span class="num">0</span>
+				</a>
+				<span class="line"></span>
+			</li>
+			<li>
+				<a href="#">
+					<img src="/images/index-11_13.png">
+					<span class="start_page">广告管理</span>
+					<span class="num">0</span>
+				</a>
+				<span class="line"></span>
+			</li>
+			<li>
+				<a href="#">
+					<img src="/images/index-11_19.png">
+					<span class="start_page">用户评论</span>
+					<span class="num">0</span>
+				</a>
+				<span class="line"></span>
+			</li>
+		</ul>
+		<ol>
+			<li>
+				<a href="./goods_list" target="">商品列表</a>
+			</li>
+			<li>
+				<a href="#">订单列表</a>
+			</li>
+			<li>
+				<a href="#">用户评论</a>
+			</li>
+			<li>
+				<a href="#">会员列表</a>
+			</li>
+			<li>
+				<a href="#">商店设置</a>
+			</li>
+			<li>
+				<a href="#">移动版</a>
+			</li>
+		</ol>
+	</div>
+
+	<!--contain-->
+	<div class="contain">
+		<div class="aside">
+			<div class="tabbar">
+				<p>导航菜单</p>
+			</div>
+			<div class="tabmain">
+				<ul>
+					<li>
+						<img src="/images/index-11_09.png"/>
+						商品管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a class="list" href="./data" target="content">商品列表</a>
+							</li>
+							<li>
+								<a class="add" href="./add_goods" target="content">添加新商品</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_07.png"/>
+						促销管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li><li>
+						<img src="/images/dd.png"/>
+						订单管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<img src="/images/index-11_13.png"/>
+						广告管理
+						<span>+</span>
+						<ol>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+							<li>
+								<a href="#">商品分类</a>
+							</li>
+							<li>
+								<a href="#">用户评论</a>
+							</li>
+						</ol>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="main">
+			<iframe src="" id="content" name="content"
+				frameborder="0" scrolling="yes">				
+			</iframe>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="/js/jquery-1.11.3.js" ></script>
+<script type="text/javascript" src="/js/shopList.js" ></script>
+</html>

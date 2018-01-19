@@ -1,0 +1,139 @@
+/* -----top----- */
+body{
+	background: url("../images/ecshop-bg.png") no-repeat;
+	background-size: 100%;
+}
+.top{
+	width: 100%;	
+}
+.top1{
+	width: 100%;
+	height: 78px;
+	background: #ff0;
+	background: url(../images/shopex.png) no-repeat 50px 40px;
+}
+.title{
+	height: 150px;
+	background: url(../images/ecshop-logo.png) no-repeat center 48px;
+	background-size:250px 70px; 
+}
+.login_box{
+	width: 100%;
+	position: relative;
+}
+.login_content{
+	width: 442px;
+	height: 352px;
+	background: url(../images/body_bj.jpg);
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.login{
+	width: 302px;
+	height: 256px;
+	text-align: center;
+	margin: 52px 70px;
+}
+
+.user{
+	width: 302px;
+	height: 50px;
+}
+.user>input{
+	width: 264px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 0;
+}
+.user>i{
+	width: 38px;
+	height: 50px;
+	color: #666;
+	font-size: 20px;
+	display: block;
+	line-height: 50px;
+	background: #fff;
+	float: left;
+}
+.psd{
+	margin-top: 2px;
+}
+.psd>input{
+	width: 264px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 0;
+}
+.psd>i{
+	width: 38px;
+	height: 50px;
+	color: #666;
+	font-size: 20px;
+	display: block;
+	line-height: 50px;
+	background: #fff;
+	float: left;
+}
+.code{
+	margin-top: 1px;
+	position: relative;
+}
+.code>i{
+	width: 38px;
+	height: 50px;
+	color: #666;
+	font-size: 20px;
+	display: block;
+	line-height: 50px;
+	background: #fff;
+	float: left;
+}
+.code>.code_text{
+	width: 264px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+.code>.code_content{
+	width: 102px;
+	height: 34px;
+	background: #ccc;
+	position: absolute;
+	left: 189px;
+	top: 8px;
+	border: 1px solid #a1a1a1;
+}
+
+.login_btn{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	background: #fc7878;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #fff;
+	
+}
+.login_bottom{
+	margin-top: 14px;
+	font-size: 11px;
+	text-align: left;
+}
+.login_bottom>input{
+	line-height: 11px;
+}
+.login_bottom>i{
+	color: #666;
+}
+.login_bottom>a{
+	color: #5dade4;
+}
+.login_bottom>.forget{
+	padding-left: 24px;
+}
+.login_bottom>.go{
+	padding-left: 50px;
+}

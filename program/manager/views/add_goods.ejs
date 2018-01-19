@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel='stylesheet' href='/css/add_goods.css' />
+</head>
+<body>
+	<h2>
+		ECSHOP管理中心-添加新商品
+		<span>
+			<a href="#">
+				<img src="./images/jnsy.png"/>
+			</a>
+		</span>
+		<input type="button" value="+ 商品列表" class="good_list">
+	</h2>
+	<div class="choice">
+		<ul>
+			<li>通用信息</li>
+			<li>商品属性</li>
+			<li>商品相册</li>
+		</ul>
+		<ol>
+			<li>
+				<table align="center">
+					<tr>
+						<td>商品编号：</td>
+						<td>
+							<input type="text" id="goods_num"/>
+						</td>
+					</tr>
+					<tr>
+						<td>商品名称：</td>
+						<td>
+							<input type="text" id="name"/>
+						</td>
+					</tr>
+					<tr>
+						<td>商品货号：</td>
+						<td><input type="text" id="huohao" /></td>
+					</tr>
+					<tr>
+						<td>扩展分类：</td>
+						<td><input type="button" value="添加"></td>
+					</tr>
+					<tr>
+						<td>商品品牌：</td>
+						<td>
+							<select>
+								<option>请选择…</option>
+								<option>aaa</option>
+								<option>bbb</option>
+								<option>ccc</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>商品价格：</td>
+						<td>
+							<input type="text" id="price" />
+						</td>
+					</tr>
+					<tr>
+						<td>市场售价：</td>
+						<td>
+							<input type="text"/> <input type="button" value="取整数"/>
+						</td>
+					</tr>
+					<tr>
+						<td>上传商品图片：</td>
+						<td>
+							<input type="file" id="pics" /><br/><br/>
+						</td>
+					</tr>
+				</table>
+				<input type="submit"  id="confirm" class="confirm" value="确定"/>
+				<input type="reset"  id="reset" class="reset" value="重置"/>
+			</li>
+			<li>
+				啊啊
+			</li>
+			<li>
+				抱抱
+			</li>
+		</ol>
+	</div>
+</body>
+<script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/js/add_goods.js"></script>
+</html>
+

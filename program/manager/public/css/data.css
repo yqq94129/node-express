@@ -1,0 +1,127 @@
+body,h1,h3,h2,h4,h5,h6,p,dl,dd,ul,ol,form,input,fieldset,th,td,iframe {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,strong,b {
+	font-weight: normal;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+input {
+	vertical-align: top;
+}
+
+a,
+input,
+area {
+	outline: none;
+}
+
+input {
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+body {
+	width: 100%;
+	height: auto;
+	background: url(../images/body_bj.jpg);
+}
+
+body h2 {
+	height: 30px;
+	margin: 0 0 10px 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	color: #333;
+	padding: 20px 0 0 10px;
+}
+
+body h2 span {
+	margin-left: 10px;
+}
+
+body h2 .good_list {
+	width: 98px;
+	height: 26px;
+	background: #c43926;
+	border-radius: 5px;
+	color: #fff;
+	float: right;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+table{
+	width: 100%;
+    background: #ddd;
+}
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th{
+	line-height: 39px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+th>img{
+	vertical-align: middle
+}
+th>input{
+	vertical-align: middle;
+}
+tr>td{
+	background: #fff;
+    padding: 10px;
+    line-height: 39px;
+    text-align: center;
+}
+td>input{
+	vertical-align: middle;
+	text-align: center;
+}
+td>a>img{
+	vertical-align: middle;
+	text-align: center;
+}
+tr>.spacial{
+	font-weight: bold;
+}
+
+.pages{
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	margin-right: 100px;
+}
+.pages>input{
+	vertical-align: middle;
+	border: 1px solid #999;
+	text-align: center;
+
+}

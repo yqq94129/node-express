@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "name": "public",
+  "version": "1.0.0",
+  "main": "gulpFile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yqq",
+  "license": "ISC",
+  "description": ""
+}
